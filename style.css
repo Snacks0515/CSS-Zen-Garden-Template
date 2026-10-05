@@ -1,1 +1,28 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body {
+    background-image: linear-gradient(to bottom right, blue, white, black);
+}
+/*background placeholder*/
+.intro {
+    text-align: center;
+}
+
+.preamble {
+    text-align: left;
+}
+
+.explanation {
+    text-align: left;
+}
+
+.participation {
+    text-align: left;
+}
+
+.benefits {
+    text-align: right;
+}
+
+.requirements {
+    text-align: right;
+}
