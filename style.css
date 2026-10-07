@@ -1,8 +1,14 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-body {
+/*body {
     background-image: linear-gradient(to bottom right, blue, white, black);
-}
+}*/
 /*background placeholder*/
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqIE555xYqnAdeiM18Tg8MyCw1ACG-Y94jIOjonQ-5g&s=10"), url("paper.gif");
+  background-color: #cccccc;
+}
+
 .intro {
     text-align: center;
 }
