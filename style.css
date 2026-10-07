@@ -5,8 +5,10 @@
 /*background placeholder*/
 
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqIE555xYqnAdeiM18Tg8MyCw1ACG-Y94jIOjonQ-5g&s=10"), url("paper.gif");
-  background-color: #cccccc;
+  background-image: url("house-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e32c2c;
 }
 
 .intro {
@@ -15,6 +17,15 @@ body {
 
 .preamble {
     text-align: left;
+    font-style: Anek-Tamil;
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(255, 204, 57);
 }
 
 .explanation {
@@ -31,4 +42,20 @@ body {
 
 .requirements {
     text-align: right;
+}
+
+p::first-line {
+    text-indent: 10px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+:link {
+    color: aqua;
+}
+
+:visited {
+    color: #e32c2c;
 }
