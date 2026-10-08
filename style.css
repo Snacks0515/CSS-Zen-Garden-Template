@@ -59,3 +59,16 @@ a:hover {
 :visited {
     color: #e32c2c;
 }
+
+h3, p {
+    background-color: rgba(14, 11, 1, 0.01);
+}
+
+div p {
+    background-color: rgba(81, 255, 0, 0.001);
+}
+
+div > p {
+  background-color: rgba(22, 22, 20, 0.01);
+  border: 1px solid rgb(15, 11, 11, 0.01);
+}
