@@ -57,7 +57,11 @@ a:hover {
 }
 
 :visited {
-    color: #e32c2c;
+    color: #0c7ec0;
+}
+
+a:active {
+    color: rgb(90, 3, 250);
 }
 
 h3, p {
@@ -72,3 +76,31 @@ div > p {
   background-color: rgba(22, 22, 20, 0.01);
   border: 1px solid rgb(15, 11, 11, 0.01);
 }
+
+h1:first-of-type {
+    font-size: 72px;
+    background-image: linear-gradient(to right, #1810fa, #0f84c8, #05d1d8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
